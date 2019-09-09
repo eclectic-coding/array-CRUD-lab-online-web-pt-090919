@@ -8,7 +8,7 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  arr.pop[element] = arr
+  arr.push[element] = arr
 end
 
 def add_element_to_start_of_array(array, element)
